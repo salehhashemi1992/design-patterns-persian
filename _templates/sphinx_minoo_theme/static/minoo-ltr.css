@@ -18,7 +18,7 @@ a,ul>li>a,ol>li>a{text-decoration:none!important;color:#5C6BC0;padding:0}
 a:hover,ul>li>a:hover,ol>li>a:hover{color:#66BB6A}
 i{vertical-align:middle}
 h1,h2,h3,h4,h5,h6{font-weight:bold;color:#000000;display:inline-block}
-h1,h2{padding:10px 0 10px 15px}
+h1,h2,h3{padding:10px 0 10px 15px}
 h1{background-color:#5C6BC0;color:#FFFFFF;line-height:26px;border-left:5px #E8EAF6 solid}
 p{line-height:24px;margin:0;font-size:16px}
 h1{font-size:175%}
@@ -33,8 +33,9 @@ th{text-align:left}
 td,th{vertical-align:top}
 thead{background-color:#5C6BC0;color:#FFFFFF}
 caption{text-align:center;color:#212121;padding:8px 24px;background-color:#E8EAF6}
-code,kbd,pre,samp{background-color:#E8EAF6;border-radius:0;border:none;direction:ltr;font-size:12px}
+code,kbd,pre,samp{background-color:#E8EAF6;border-radius:0;border:none;direction:ltr;font-size:12px;direction:ltr;font-size:12px;font-weight:600;}
 code,kbd,samp{padding:2px 6px;white-space:pre}
+code{color:#000}
 pre{margin:0;overflow-wrap:normal}
 ul,ol{padding-left:24px;font-size:16px}
 ul li{list-style:disc;margin-top:1px;font-size:16px}
@@ -149,6 +150,7 @@ table.docutils.footnote{white-space:normal}
 #sidebar-bottom-list #tree-toc ul li>a{color:#212121;background-color:#E8EAF6}
 #sidebar-bottom-list #tree-toc ul li.current>a,h2{color:#FFFFFF;background-color:#66BB6A}
 h2{border-left:5px #E8EAF6 solid !important}
+h3{border-left:5px #66BB6A solid !important}
 #sidebar-bottom-list #tree-toc ul li>ul>li>a{color:#FFFFFF;background-color:#A5D6A7}
 #sidebar-bottom-list #tree-toc ul li>a:hover{border-left:5px #66BB6A solid;color:#212121}
 #sidebar-bottom-list #tree-toc ul li.current>a:hover{border-left:5px #E8EAF6 solid;color:#FFFFFF}

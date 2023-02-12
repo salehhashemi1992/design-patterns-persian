@@ -27,24 +27,25 @@
                     {%- if hasdoc('copyright') %}
                         {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
                     {%- else %}
-                        {% trans copyright=copyright|e %}
                             <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"  target="_blank">
                                 <img alt="Creative Commons License" style="border-width:0;margin-bottom: 3px" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
                             </a>
+                        {% trans copyright=copyright|e %}
                             <span style="display: inline-block;vertical-align: middle" >{{ copyright }} </span>
                         {% endtrans %}
+                            <a href="https://www.linkedin.com/in/saleh-hashemi/" target="_blank"><i class="fa fa-linkedin" style="vertical-align: middle !important;"></i></a>
                     {%- endif %}
                 {%- endif %}
             </p>
             {%- if last_updated %}
                 <p style="font-size: 13px;">
-                    {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+                    .آخرین بروز رسانی در {{ last_updated }}
                 </p>
             {%- endif %}
             {%- if show_sphinx %}
                 <p style="font-size: 13px;">
                     {% trans sphinx_version=sphinx_version|e %}
-                        Created using <a href="http://sphinx-doc.org/">Sphinx</a> ({{ sphinx_version }}) with <a href="https://github.com/saeiddrv/SphinxMinooTheme">Minoo</a> (Beta 0.9.7) theme.
+                        Created using <a href="http://sphinx-doc.org/">Sphinx</a> ({{ sphinx_version }}) with <a href="https://github.com/saeiddrv/SphinxMinooTheme">Minoo</a> (0.9.7) theme.
                     {% endtrans %}
                 </p>
             {%- endif %}
