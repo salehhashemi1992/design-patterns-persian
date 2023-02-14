@@ -18,3 +18,4 @@ composer.phar
 
 # general
 .DS_Store
+/.vscode/
