@@ -108,6 +108,7 @@ p.caption,h1,h2,h3,h4,h5,h6,table{margin-top:0}
 .table-bordered{border:0}
 .alert,.btn{border-radius:0}
 .img-responsive{display:inline}
+.centered{text-align:center}
 
 /* reST  */
 .line-block{margin-right:24px}
