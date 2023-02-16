@@ -114,7 +114,7 @@ p.caption,h1,h2,h3,h4,h5,h6,table{margin-top:0}
 .line-block{margin-right:24px}
 .toc-backref{color:#000000}
 .highlighttable{direction:ltr;overflow:hidden}
-div[class^='highlight']{overflow-x:auto;direction:ltr}
+div[class^='highlight']{overflow-x:auto;direction:ltr;}
 div[class^='highlight'] td.code{width:100%}
 div[class^='highlight-'] .highlight,div[class^='last highlight-'] .highlight{margin-bottom:0}
 a.headerlink{visibility:hidden;content:none}
@@ -123,7 +123,39 @@ h1:hover a.headerlink:before,h2:hover a.headerlink:before{font-family:FontAwesom
 p.rubric{margin-bottom:12px;font-weight:bold}
 .container{padding-right:0;padding-left:0;margin:0 0 24px 0;width:100%}
 .linenodiv pre{border-right:0;background-color:#5C6BC0;color:#FFFFFF}
-.linenos{margin-bottom:24px;vertical-align:top}
+
+.highlight span.linenos {
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 12px;
+    margin-right: 12px;
+    border-right: 1px solid #e6e9ea;
+    user-select: none;
+    pointer-events: none;
+}
+
+.highlight pre {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,Courier,monospace;
+    font-size: 13px;
+    line-height: 1.4;
+    white-space: pre;
+    margin: 0;
+    padding: 12px;
+    display: block;
+    overflow: auto;
+    background:#eeffcc;
+}
+
+.highlight {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+.highlight .cp {
+    color: #007020;
+}
+
 .topic-title{font-weight:bold;margin-bottom:12px}
 .highlighted{background:#FDD835;display:inline-block;font-weight:bold;padding:0 4px;color:#212121}
 table.field-list{border:none;white-space:normal}
