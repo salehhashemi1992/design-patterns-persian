@@ -174,6 +174,9 @@ li.toctree-l2.current>a, .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a
 a.current.reference.internal {
     color: #66bb6a;
 }
+span.section-number {
+    display: none;
+}
 .toctree-wrapper li>ul{padding:0;margin:0 24px 0 0}
 .toctree-wrapper li>a{background-color:#AB47BC;color:#FFFFFF;line-height:26px;border-right:0}
 .toctree-wrapper li>ul>li>a{background-color:#CE93D8}
