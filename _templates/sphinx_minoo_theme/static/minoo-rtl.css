@@ -167,7 +167,13 @@ table.field-list th,table.field-list td{width:auto!important}
 table.docutils.citation tr td,table.docutils.footnote tr td{border:none}
 table.docutils.footnote td,table.docutils.footnote th,table.docutils.citation td,table.docutils.citation th,table.field-list th,table.field-list td{margin:0;padding:3px 12px!important;font-size:90%;overflow:visible;width:100%}
 table.docutils.footnote{white-space:normal}
-.toctree-wrapper li,#sidebar-bottom-list #tree-toc ul li,.contents.topic ul li{list-style:none}
+.toctree-wrapper li,#sidebar-bottom-list #tree-toc ul li,.contents.topic ul li{list-style:none;}
+li.toctree-l2.current>a, .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
+    color: #66bb6a;
+}
+a.current.reference.internal {
+    color: #66bb6a;
+}
 .toctree-wrapper li>ul{padding:0;margin:0 24px 0 0}
 .toctree-wrapper li>a{background-color:#AB47BC;color:#FFFFFF;line-height:26px;border-right:0}
 .toctree-wrapper li>ul>li>a{background-color:#CE93D8}
