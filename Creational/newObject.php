@@ -1,0 +1,2 @@
+<?php
+$object = new Foo();
