@@ -18,4 +18,6 @@
 .. toctree::
    :titlesonly:
 
+   StaticFactory/README
+   SimpleFactory/README
    FactoryMethod/README
