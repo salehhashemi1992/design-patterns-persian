@@ -5,8 +5,9 @@ Static Factory
 -----
 الگوی Static Factory یکی از انواع الگوهای Creational یا سازنده محسوب میشه که کارش در نهایت ایجاد شی
 هست.
-در این الگو کلاسی رو تعریف می کنیم که مسئولیتش **ایجاد شی از کلاس های دیگه** هست، اشیا ایجاد شده هم همیشه کلاس والد
-مشترکی دارن.
+
+در این الگو کلاسی رو تعریف می کنیم که مسئولیتش **ایجاد شی از کلاس های دیگه** با توجه به پارامتر ورودی هست، اشیا ایجاد
+شده هم همیشه کلاس والد مشخصی دارن.
 
 تفاوتش با انواع دیگه ی الگوهای Factory این هست که اینجا فقط یک متد static داریم که تمام انواع آبجکت ها رو ایجاد می
 کنه که معمولا هم اسمش ``factory`` یا ``build`` هست.
@@ -59,5 +60,3 @@ JSON، XML و...
 
     $dataReader = DataProcessor::createDataReader('csv');
     $data = $dataReader->readData('myData.csv');
-
-.. _`GitHub`: https://github.com/salehhashemi1992/design-patterns/tree/main/Creational/StaticFactory
