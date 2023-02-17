@@ -21,3 +21,4 @@
    StaticFactory/README
    SimpleFactory/README
    FactoryMethod/README
+   AbstractFactory/README

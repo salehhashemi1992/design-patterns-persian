@@ -29,51 +29,62 @@ Giacomo Ritucci, CC BY-SA 3.0, via Wikimedia Commons
 
 چه زمانی استفاده میشه؟
 ----------------------
-این الگو زمانی استفاده میشه که امکان پیش بینی انواع آبجکت هایی که قرار هست تولید بشن وجود نداره و ممکنه هر نوع جدید
-به روش متفاوتی تولید بشه.
+این الگو زمانی استفاده میشه که قصد داریم مجموعه ای از آبجکت ها از یک خانواده رو تولید کنیم و نمی خوایم سطوح بالاتر
+برنامه رو درگیر نحوه ی ایجادشون کنیم.
 
-از مهم ترین دستاوردهای استفاده از این الگوی طراحی در برنامه میشه کمک به رعایت اصول Single Responsibility، Open/Closed
-Principle و Dependency Inversion از اصول SOLID رو نام برد.
+با این الگو مطمئن میشیم آبجکت های ایجاد شده کاملا با هم مطابقت دارن و از یک خانواده مشابه هستن.
+
+.. image:: categories.png
+   :align: center
+
+از وب سایت: refactoring.guru
 
 .. caution::
    .. centered:: ✅ مزایای استفاده
    استفاده از این الگو باعث میشه در سطح بالای برنامه وابستگی به سطوح پایین و انواع پیاده سازی ها از بین بره و
    کلاس های Factory مسئول آماده کردن تنظیمات و سپس ایجاد اشیاء بشن و این مسئولیت رو از روی دوش سطوح بالاتر برنامه بردارن.
 
-   مثلا اگر کد های فراخوانی API مربوط به دسترسی به درگاه پرداخت رو در خود کلاس اصلی برنامه بنویسیم و بعدا کارفرما قصد
-   عوض کردن API و روش پرداخت رو داشته باشه مجبوریم تمام تغییرات رو در خود کلاس اصلی ایجاد کنیم در صورتی که با این روش
-   سطوح بالای برنامه رو درگیر فراخوانی API نخواهیم کرد.
-
 .. warning::
    .. centered:: ❌ معایب استفاده
-   پیچیده تر شدن برنامه به علت نیاز به تعریف انواع زیرکلاس های Factory و اشیاء تولیدی
+   پیچیده تر شدن برنامه به علت نیاز به تعریف انواع interface و concrete در برنامه
 
 کاربرد عملی
 -----------
-فرض کنید در برنامه خودمون بخشی به نام پرداخت داریم که در اون روش های مختلفی هم برای پرداخت وجود داره و هر روش پرداخت
-هم روش ایجاد شی مستقل خودش رو داره.
+تصور کنید در حال پیاده سازی یک **فریمورک رابط کاربری** هستیم که قراره از سیستم عامل های مختلف پشتیبانی کنه.
 
-در این شرایط بهترین راه استفاده از Factory Method Design Pattern هست.
+در این شرایط ما یک سری المان های UI داریم که باید برای سیستم عامل های مختلف تعریف بشن.
+
+در واقع یک سری المان یا آبجکت هم خانواده که باید توسط Factory های مربوط به هر سیستم عامل تولید بشن.
 
 پیاده سازی
 -----------
-ابتدا interface های مربوط به Factory و متد پرداخت رو ایجاد می کنیم:
+ابتدا برای المان های مورد نظرمون که شامل button و checkbox هستن interface تعریف می کنیم:
 
-.. literalinclude:: Interfaces.php
+.. literalinclude:: ElementInterfaces.php
    :language: php
    :linenos:
 
-در مرحله ی بعد پیاده سازی های concrete مربوط به Factory ها رو انجام میدیم:
+حالا المان ها رو برای سیستم عامل های مختلف پیاده سازی می کنیم:
+
+.. literalinclude:: Elements.php
+   :language: php
+   :linenos:
+
+یک interface برای Factory های مورد نظر داریم:
+
+.. literalinclude:: UIFactory.php
+   :language: php
+   :linenos:
+
+حالا خود Factory ها رو تعریف می کنیم که کارشون برگردوندن المان های مختلف UI هست:
 
 .. literalinclude:: Factories.php
    :language: php
    :linenos:
 
-همونطور که میبینید هر نوع متد پرداخت روش پیاده سازی مستقل مربوط به خودش رو داره.
+کد سطح بالای ما در برنامه که از این ساختار و الگو استفاده می کنه به این شکل هست:
 
-و در نهایت هم کلاس های مربوط به متدهای پرداخت رو پیاده سازی می کنیم:
-
-.. literalinclude:: PaymentMethods.php
+.. literalinclude:: Client.php
    :language: php
    :linenos:
 
@@ -83,17 +94,14 @@ Principle و Dependency Inversion از اصول SOLID رو نام برد.
 .. code-block::  php
    :linenos:
 
-   $creditCardFactory = new CreditCardFactory("1234567890123456", "123", "12/24");
-   $creditCard = $creditCardFactory->create();
-   $creditCard->processPayment(100);
+   // Usage
+   echo createUI(new WindowsUIFactory()); // Output: Windows style button Windows style checkbox
+   echo createUI(new MacOSUIFactory()); // Output: MacOS style button MacOS style checkbox
 
-   $payPalFactory = new PayPalFactory("saleh@example.com", "password123");
-   $payPal = $payPalFactory->create();
-   $payPal->processPayment(100);
+اینجا دیگه اگر سیستم عامل جدیدی اضافه بشه نیاز به تغییر ساختار کد سطح بالای ما یعنی createUI نیست و فقط کافیه به
+عنوان ورودی کلاس سیستم عامل جدید رو بدیم.
 
-نحوه ی ایجاد شی به این صورت هست و موضوع مهم در اینجا این هست که متغیر های $paypal و $creditCard در اینجا هر دو
-interface با نام PaymentMethod رو پیاده سازی کردن پس می توان هر دو را در برنامه به یک شکل و با فراخوانی متد مشترک
-processPayment استفاده کرد.
+و این ما رو یاد چی میندازه؟ درسته Dependency Inversion
 
 برای اطلاعات بیشتر می تونید ویدیوی مربوط به Dependency Inversion رو ببینید:
 
