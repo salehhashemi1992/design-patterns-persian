@@ -49,31 +49,30 @@ Principle و Dependency Inversion از اصول SOLID رو نام برد.
 
 کاربرد عملی
 -----------
-تصویر کنید ما یک فروشگاه طراحی کردیم که محصولات مختلفی در اون به فروش میرسه. مواردی مثل کتاب و لباس و محصولات
-الکترونیک و...
+فرض کنید در برنامه خودمون بخشی به نام پرداخت داریم که در اون روش های مختلفی هم برای پرداخت وجود داره و هر روش پرداخت
+هم روش ایجاد شی مستقل خودش رو داره.
 
-هر کدوم از این نوع محصولات خصیصه های متفاوتی هم دارن مثل نام و قیمت و توضیحات.
-
-برای ایجاد شی از هر نوع محصول می تونیم از الگوی Simple Factory استفاده کنیم.
+در این شرایط بهترین راه استفاده از Factory Method Design Pattern هست.
 
 پیاده سازی
 -----------
-برای پیاده سازی این الگو ابتدا یک interface یا abstract تعریف می کنیم که مشخص کننده ی خصیصه های محصولی هست که قراره
-تولید بشه:
+ابتدا interface های مربوط به Factory و متد پرداخت رو ایجاد می کنیم:
 
-.. literalinclude:: Product.php
+.. literalinclude:: Interfaces.php
    :language: php
    :linenos:
 
-حالا انواع محصولات رو به این صورت تعریف می کنیم:
+در مرحله ی بعد پیاده سازی های concrete مربوط به Factory ها رو انجام میدیم:
 
-.. literalinclude:: Products.php
+.. literalinclude:: Factories.php
    :language: php
    :linenos:
 
-و در نهایت هم کلاس ProductFactory رو داریم که در واقع همون Simple Factory محسوب میشه:
+همونطور که میبینید هر نوع متد پرداخت روش پیاده سازی مستقل مربوط به خودش رو داره.
 
-.. literalinclude:: ProductFactory.php
+و در نهایت هم کلاس های مربوط به متدهای پرداخت رو پیاده سازی می کنیم:
+
+.. literalinclude:: PaymentMethods.php
    :language: php
    :linenos:
 
@@ -83,10 +82,22 @@ Principle و Dependency Inversion از اصول SOLID رو نام برد.
 .. code-block::  php
    :linenos:
 
-   $productFactory = new ProductFactory();
-   $product = $productFactory->createProduct("book", "The Lord of the Rings", 20.99, "A classic fantasy novel.");
-   echo $product->getName() . "\n";
-   echo $product->getPrice() . "\n";
-   echo $product->getDescription() . "\n";
+   $creditCardFactory = new CreditCardFactory("1234567890123456", "123", "12/24");
+   $creditCard = $creditCardFactory->create();
+   $creditCard->processPayment(100);
 
-.. _`Static Factory`: https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/StaticFactory/README.html
+   $payPalFactory = new PayPalFactory("saleh@example.com", "password123");
+   $payPal = $payPalFactory->create();
+   $payPal->processPayment(100);
+
+نحوه ی ایجاد شی به این صورت هست و موضوع مهم در اینجا این هست که متغیر های $paypal و $creditCard در اینجا هر دو
+interface با نام PaymentMethod رو پیاده سازی کردن پس می توان هر دو را در برنامه به یک شکل و با فراخوانی متد مشترک
+processPayment استفاده کرد.
+
+برای اطلاعات بیشتر می تونید ویدیوی مربوط به Dependency Inversion رو ببینید:
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/eCFjTUIbEcg" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
