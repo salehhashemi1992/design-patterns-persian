@@ -22,3 +22,4 @@
    SimpleFactory/README
    FactoryMethod/README
    AbstractFactory/README
+   Builder/README
