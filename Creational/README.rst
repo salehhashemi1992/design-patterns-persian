@@ -3,7 +3,7 @@
    :keywords: design patterns, php, creational, best practices
 
 الگوهای Creational
-=================
+==================
 
 الگوهای creational مسئله ی ایجاد شی رو بررسی می کنن. اینکه در هر شرایطی بهتره ایجاد شی رو به چه صورت انجام بدیم.
 ساخت شی با روش معمول یعنی
@@ -23,3 +23,4 @@
    FactoryMethod/README
    AbstractFactory/README
    Builder/README
+   Prototype/README
