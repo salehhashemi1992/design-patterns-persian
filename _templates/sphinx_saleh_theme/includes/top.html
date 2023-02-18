@@ -6,7 +6,7 @@
     {% endif %}
     {% if pagename != "index" %}
         <a href="{{ pathto(master_doc) }}"><i class="fa fa-folder-o"></i>&nbsp; {{glossary.root_page}}</a>&nbsp;
-        <a><i class="fa {% if theme_direction == "ltr" %} fa-angle-right{% else %} fa-angle-left{% endif %}"></i></a>&nbsp;
+        <a><i class="fa fa-angle-left"></i></a>&nbsp;
         <a><i class="fa fa-folder-open-o"></i>&nbsp; {{ title }}</a>
     {% else %}
         <a><i class="fa fa-folder-o"></i>&nbsp; {{glossary.root_page}}</a>

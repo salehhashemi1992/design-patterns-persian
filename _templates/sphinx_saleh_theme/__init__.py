@@ -2,11 +2,11 @@ from __future__ import print_function
 import os
 
 
-"""SphinxMinooTheme.
-https://github.com/saeiddrv/SphinxMinooTheme.
+"""SphinxSalehTheme.
+https://github.com/saeiddrv/sphinx-saleh-theme.
 """
 
-class MinooVersion():
+class SalehVersion():
     major = "0"
     minor = "9"
     micro = "0"
@@ -23,7 +23,7 @@ class MinooVersion():
             "release = " + self.release + "\n"
         return info
 
-__version__ = MinooVersion()
+__version__ = SalehVersion()
 
 
 # From https://github.com/ryan-roemer/sphinx-bootstrap-theme.

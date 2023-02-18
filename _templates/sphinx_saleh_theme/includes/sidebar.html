@@ -32,7 +32,7 @@
         {% endif %}
     </div>
     <div id="sidebar-navigation">
-        <span id="navigation-toggle"><i class="fa {% if theme_direction == 'ltr' %} fa-angle-double-right {% else %} fa-angle-double-left {% endif %}" id="sidebar-toggle-icon" style="font-size: 27px;"></i></span>
+        <span id="navigation-toggle"><i class="fa fa-angle-double-left" id="sidebar-toggle-icon" style="font-size: 27px;"></i></span>
         <span id="navigation-search">
             {%- if builder != 'singlehtml' %}
                 <form action="{{ pathto('search') }}" method="get">
