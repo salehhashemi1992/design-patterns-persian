@@ -193,7 +193,7 @@ span.section-number {
 #sidebar-bottom-list #tree-toc ul li>a,#sidebar-bottom-list #tree-toc ul li.current>a{line-height:20px;border-right:0}
 h2{border-right:5px #E8EAF6 solid !important}
 h3{border-right:5px #66BB6A solid !important}
-#sidebar-bottom-list #tree-toc ul li>a:hover{border-right:5px #66BB6A solid;color:#212121}
+#sidebar-bottom-list #tree-toc ul li>a:hover{border-right:5px #66BB6A solid;}
 #sidebar-bottom-list #tree-toc ul li.current>a:hover{border-right:5px #E8EAF6 solid;color:#FFFFFF}
 #sidebar-bottom-list #tree-toc ul li>ul>li>a:hover{border-right:5px #E8EAF6 solid;color:#FFFFFF}
 #sidebar-bottom-list #tree-toc ul li.current>ul>li>a:hover{color:#FFFFFF}
