@@ -77,7 +77,7 @@ dl dd{margin:0 24px 12px 0}
 #sidebar-bottom-list{width:100%;display:inline-block;min-height:100%;clear:both}
 #wrapper-sidebar-bottom{right:-300px;position:fixed;z-index:1000;min-height:100%;width:300px;background-color:#343131}
 #body-content{margin-right:auto;margin-left:auto;}
-#body-top{width:100%;height:auto;padding:10px 0;display:inline-block;color:#5C6BC0;border-bottom:3px #E8EAF6 solid;}
+#body-top{width:100%;height:auto;padding: 15px 0;display:inline-block;color:#5C6BC0;border-bottom:3px #E8EAF6 solid;margin-bottom: 30px;}
 #body-top>a{display:inline-block;height:auto;vertical-align:bottom;height:auto}
 #body-top>span{width:auto;height:28px;line-height:1.5rem;display:inline-block;vertical-align:bottom}
 #body-top>a>i,#body-top>span>i{display:inline-block}
