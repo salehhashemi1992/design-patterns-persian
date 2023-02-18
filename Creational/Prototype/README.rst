@@ -23,7 +23,7 @@ clone که مسئول ایجاد کپی از آبجکت مورد نظر هست)
 
 4.   Prototype manager: یک بخش اختیاری که مسئولیتش مدیریت Prototype های مختلف و تحویل دادن Prototype مناسب هست.
 
-.. image:: UML.jpg
+.. image:: UML.png
    :alt: UML of Prototype Design Pattern
    :align: center
 
