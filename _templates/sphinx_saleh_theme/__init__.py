@@ -7,8 +7,8 @@ https://github.com/saeiddrv/sphinx-saleh-theme.
 """
 
 class SalehVersion():
-    major = "0"
-    minor = "9"
+    major = "1"
+    minor = "0"
     micro = "0"
     level = "Beta"
     release = r"2023/02/12"
