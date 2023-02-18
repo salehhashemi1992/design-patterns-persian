@@ -3,7 +3,7 @@ import os
 
 
 """SphinxSalehTheme.
-https://github.com/saeiddrv/sphinx-saleh-theme.
+https://github.com/salehhashemi1992/sphinx-saleh-theme
 """
 
 class SalehVersion():
