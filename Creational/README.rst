@@ -26,3 +26,4 @@
    AbstractFactory/README
    Builder/README
    Prototype/README
+   Singleton/README
