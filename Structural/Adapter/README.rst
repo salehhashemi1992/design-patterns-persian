@@ -8,7 +8,7 @@ Adapter
 شاخه رو به دو شاخه تبدیل می کنن.
 
 .. image:: adapter.jpg
-   :alt: UML of Adapter Design Pattern
+   :alt: Sample of Adapter Design Pattern
    :align: center
 
 Standderivative work: PleaseStand, CC BY 3.0, via Wikimedia Commons
@@ -33,6 +33,12 @@ Standderivative work: PleaseStand, CC BY 3.0, via Wikimedia Commons
 
 4.   Client: کلاسی که از طریق Target Interface با آداپتور ارتباط برقرار می کند بدون اینکه از حضور Adaptee اطلاعی
 داشته باشد.
+
+.. image:: UML.jpg
+   :alt: UML of Adapter Design Pattern
+   :align: center
+
+Trashtoy, Public domain, via Wikimedia Commons
 
 چه زمانی استفاده میشه؟
 ----------------------
