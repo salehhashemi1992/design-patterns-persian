@@ -1,1 +1,38 @@
-# design-patterns
+# Design Patterns In Persian
+
+آموزش الگوهای طراحی یا دیزاین پترن ها به زبان فارسی
+
+[مطالعه آموزش](https://design-patterns-in-persian.readthedocs.io/en/latest/) یا [دانلود آموزش](https://readthedocs.org/projects/design-patterns-in-persian/downloads/) از طریق وب سایت Read The Docs
+
+آموزش کامل مثال محور الگوهای طراحی به زبان فارسی همراه با مثال های عملی از زبان PHP8
+
+![](docs.jpg)
+
+## الگوها
+
+الگوهای طراحی رو میشه از لحاظ هدفی که دنبال می کنن به چند دسته تقسیم کرد که هر کدوم رو به صورت مجزا بررسی خواهیم کرد:
+
+### [Creational](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/README.html)
+
+* [Static Factory 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/StaticFactory/README.html)
+* [Simple Factory 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/SimpleFactory/README.html)
+* [Factory Method 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/FactoryMethod/README.html)
+* [Abstract Factory 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/AbstractFactory/README.html)
+* [Builder 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/Builder/README.html)
+* [Prototype 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/Prototype/README.html)
+* [Singleton 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/Singleton/README.html)
+
+### [Structural](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/README.html)
+
+* [Adapter 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Adapter/README.html)
+
+### [Behavioral](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/README.html)
+
+* [Chain of Responsibility 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/ChainOfResponsibility/README.html)
+
+## چطور به این پروژه کمک کنیم؟ 
+
+- با ⭐ دادن به پروژه و ارسالش برای دوستانتون باعث بیشتر دیده شدنش بشید
+- این پروژه رو میتونید fork کنید و زبان ها و اشکال دیگه گسترشش بدید
+- توی یوتیوب ویدیوهای مربوط 📽 رو ببینید و توی کانال سابسکرایب و لایک کنید ♥ و ویدیو ها رو با بقیه به اشتراک بگذارید
+- در پروژه contribution داشته باشید
