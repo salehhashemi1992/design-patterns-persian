@@ -25,6 +25,7 @@
 ### [Structural](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/README.html)
 
 * [Adapter 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Adapter/README.html)
+* [Bridge 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Bridge/README.html)
 
 ### [Behavioral](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/README.html)
 

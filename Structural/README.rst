@@ -16,3 +16,4 @@
    :titlesonly:
 
    Adapter/README
+   Bridge/README
