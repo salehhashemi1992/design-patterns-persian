@@ -17,3 +17,4 @@
 
    Adapter/README
    Bridge/README
+   Composite/README
