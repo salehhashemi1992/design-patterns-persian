@@ -19,3 +19,4 @@
    Bridge/README
    Composite/README
    Decorator/README
+   Facade/README
