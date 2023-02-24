@@ -18,3 +18,4 @@
    Adapter/README
    Bridge/README
    Composite/README
+   Decorator/README
