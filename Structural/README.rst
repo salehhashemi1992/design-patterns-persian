@@ -21,3 +21,4 @@
    Decorator/README
    Facade/README
    Flyweight/README
+   Proxy/README
