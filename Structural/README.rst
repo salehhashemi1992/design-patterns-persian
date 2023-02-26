@@ -20,3 +20,4 @@
    Composite/README
    Decorator/README
    Facade/README
+   Flyweight/README
