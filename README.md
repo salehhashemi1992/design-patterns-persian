@@ -27,6 +27,7 @@
 * [Adapter 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Adapter/README.html)
 * [Bridge 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Bridge/README.html)
 * [Composite 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Composite/README.html)
+* [DataMapper 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/DataMapper/README.html)
 * [Decorator 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Decorator/README.html)
 * [Facade 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Facade/README.html)
 * [Flyweight 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Flyweight/README.html)

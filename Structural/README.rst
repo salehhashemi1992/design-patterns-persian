@@ -18,6 +18,7 @@
    Adapter/README
    Bridge/README
    Composite/README
+   DataMapper/README
    Decorator/README
    Facade/README
    Flyweight/README
