@@ -36,6 +36,7 @@
 ### [Behavioral](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/README.html)
 
 * [Chain of Responsibility 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/ChainOfResponsibility/README.html)
+* [Command 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Command/README.html)
 
 ## چطور به این پروژه کمک کنیم؟ 
 

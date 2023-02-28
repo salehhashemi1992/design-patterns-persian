@@ -13,3 +13,4 @@
    :titlesonly:
 
    ChainOfResponsibility/README
+   Command/README
