@@ -15,3 +15,4 @@
    ChainOfResponsibility/README
    Command/README
    Iterator/README
+   Mediator/README
