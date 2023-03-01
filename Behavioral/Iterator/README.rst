@@ -47,8 +47,7 @@ Kostyantyn Kolesnichenko, Public domain, via Wikimedia Commons
    .. centered:: ✅ مزایای استفاده
    امکان مدیریت روی ترتیب request handling
 
-   رعایت اصل Open/Closed از اصول Solid: امکان اضافه کردن انواع جدید Collection ها و iterator ها بدون تغییر در
-کد Client
+   رعایت اصل Open/Closed از اصول Solid: امکان اضافه کردن انواع جدید Collection ها و iterator ها بدون تغییر Client
 
    رعایت اصلی تک مسئولیتی از اصول SOLID طبق توضیحاتی که داده شد
 
