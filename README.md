@@ -41,6 +41,7 @@
 * [Mediator 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Mediator/README.html)
 * [Memento 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Memento/README.html)
 * [Observer 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Observer/README.html)
+* [State 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/State/README.html)
 
 ## چطور به این پروژه کمک کنیم؟ 
 

@@ -18,3 +18,4 @@
    Mediator/README
    Memento/README
    Observer/README
+   State/README
