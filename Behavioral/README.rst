@@ -17,3 +17,4 @@
    Iterator/README
    Mediator/README
    Memento/README
+   Observer/README
