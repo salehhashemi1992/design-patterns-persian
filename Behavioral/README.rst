@@ -16,3 +16,4 @@
    Command/README
    Iterator/README
    Mediator/README
+   Memento/README

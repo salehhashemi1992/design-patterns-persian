@@ -39,6 +39,7 @@
 * [Command 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Command/README.html)
 * [Iterator 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Iterator/README.html)
 * [Mediator 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Mediator/README.html)
+* [Memento 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Memento/README.html)
 
 ## چطور به این پروژه کمک کنیم؟ 
 
