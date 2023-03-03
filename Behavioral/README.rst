@@ -19,3 +19,4 @@
    Memento/README
    Observer/README
    State/README
+   Strategy/README

@@ -42,6 +42,7 @@
 * [Memento 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Memento/README.html)
 * [Observer 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Observer/README.html)
 * [State 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/State/README.html)
+* [Strategy 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Strategy/README.html)
 
 ## چطور به این پروژه کمک کنیم؟ 
 
