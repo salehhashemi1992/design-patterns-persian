@@ -43,7 +43,8 @@
 * [Observer 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Observer/README.html)
 * [State 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/State/README.html)
 * [Strategy 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Strategy/README.html)
-* [Template Method📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/TemplateMethod/README.html)
+* [Template Method 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/TemplateMethod/README.html)
+* [Visitor 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Visitor/README.html)
 
 ## چطور به این پروژه کمک کنیم؟ 
 

@@ -21,3 +21,4 @@
    State/README
    Strategy/README
    TemplateMethod/README
+   Visitor/README
