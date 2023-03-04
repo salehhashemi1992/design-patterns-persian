@@ -20,3 +20,4 @@
    Observer/README
    State/README
    Strategy/README
+   TemplateMethod/README
