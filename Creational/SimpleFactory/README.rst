@@ -8,8 +8,8 @@ Simple Factory
 
 در این الگو کلاسی رو تعریف می کنیم که مسئولیتش **ایجاد شی از کلاس های دیگه** با توجه به پارامتر ورودی هست.
 
-تفاوتش با الگوی  این هست که اینجا برای ایجاد شی از متد استاتیک استفاده نمی کنیم و یک متد غیر static مسئول ایجاد شی
-هست.
+تفاوتش با الگوی Static Factory این هست که اینجا برای ایجاد شی از متد استاتیک استفاده نمی کنیم و یک متد غیر static مسئول
+ایجاد شی هست.
 
 با توجه به ساختاری که برای اون تعریف شده امکان داشتن چندین factory، با پارامترهای مختلف هم وجود داره.
 
@@ -66,8 +66,8 @@ Simple Factory
 
    $productFactory = new ProductFactory();
    $product = $productFactory->createProduct("book", "The Lord of the Rings", 20.99, "A classic fantasy novel.");
-   echo $product->getName() . "\n";
-   echo $product->getPrice() . "\n";
-   echo $product->getDescription() . "\n";
+   echo $product->getName() . "<br>";
+   echo $product->getPrice() . "<br>";
+   echo $product->getDescription() . "<br>";
 
 .. _`Static Factory`: https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/StaticFactory/README.html
