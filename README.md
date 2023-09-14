@@ -2,7 +2,7 @@
 
 آموزش الگوهای طراحی یا دیزاین پترن ها به زبان فارسی
 
-[مطالعه آموزش](https://design-patterns-in-persian.readthedocs.io/en/latest/) یا [دانلود آموزش](https://readthedocs.org/projects/design-patterns-in-persian/downloads/) از طریق وب سایت Read The Docs
+[مطالعه آموزش](https://design-patterns-in-persian.readthedocs.io/en/latest/) از طریق وب سایت Read The Docs
 
 آموزش کامل مثال محور الگوهای طراحی به زبان فارسی همراه با مثال های عملی از زبان PHP8
 
