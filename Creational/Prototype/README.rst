@@ -58,7 +58,7 @@ User:Giacomo Ritucci, CC BY-SA 3.0, via Wikimedia Commons
 -----------
 ابتدا ساختار کلی Prototype رو مشخص می کنیم:
 
-.. literalinclude:: BurgerBuilder.php
+.. literalinclude:: BookPrototype.php
    :language: php
    :linenos:
 
