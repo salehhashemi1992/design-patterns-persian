@@ -2,7 +2,7 @@
 
 class Singleton
 {
-    private static Singleton $instance;
+    private static ?Singleton $instance = null;
 
     private function __construct()
     {
@@ -11,7 +11,7 @@ class Singleton
 
     public static function getInstance(): Singleton
     {
-        if (!self::$instance) {
+        if (self::$instance === null) {
             self::$instance = new self();
         }
 
