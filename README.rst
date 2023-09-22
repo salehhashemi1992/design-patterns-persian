@@ -1,55 +1,61 @@
-# Design Patterns In Persian
+.. meta::
+   :description: مجموعه ای از مهم ترین دیزاین پترن ها با مثال های عملی از PHP8
+   :keywords: design patterns, php, best practices
 
-آموزش الگوهای طراحی یا دیزاین پترن ها به زبان فارسی
+.. DesignPatternsInPersian
 
-[مطالعه آموزش](https://design-patterns-in-persian.readthedocs.io/en/latest/) از طریق وب سایت Read The Docs
+==========================
+Design Patterns In Persian
+==========================
 
-آموزش کامل مثال محور الگوهای طراحی به زبان فارسی همراه با مثال های عملی از زبان PHP8
+.. centered:: ✅ مستندات کامل و آموزش مثال محور الگوهای طراحی یا دیزاین پترن ها!
 
-![](docs.jpg)
+دیزاین پترن ها راهکارها یا پاسخ های معمول ای هستند برای مشکلاتی که در زمان توسعه و طراحی نرم افزار با اون ها مواجه
+میشیم.
 
-## الگوها
+در واقع می تونیم بگیم دیزاین پترن ها مثل الگوهای از پیش طراحی شده ای هستند که می تونیم ازشون برای
+حل مشکلات تکرارشونده کدنویسی استفاده کنیم.
 
-الگوهای طراحی رو میشه از لحاظ هدفی که دنبال می کنن به چند دسته تقسیم کرد که هر کدوم رو به صورت مجزا بررسی خواهیم کرد:
+⚠ البته باید بگم اینطور نیست که یه دیزاین پترن مشخص رو بگیریم و صاف کپی کنیم توی برنامه مون!
+دیزاین پترن ها رو یاد میگیریم و استفاده می کنیم تا بتونیم ساختار بهتری به کد خودمون بدیم
+و بدونیم در موقعیت های خاص بهتره چکار کنیم تا کد ما هم تمیز تر باشه و هم قابلیت نگهداری بهتری داشته باشه.
 
-### [Creational](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/README.html)
+.. caution::
+    -  الگوهای طراحی برای تمام مشکلات راه حل ندارن
+    -  اگر در جای نادرست استفاده بشن خوانایی و قابلیت نگهداری برنامه رو کاهش میدن!
+    -  قرار نیست حتما همه جای برنامه شما استفاده بشن
 
-* [Static Factory 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/StaticFactory/README.html)
-* [Simple Factory 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/SimpleFactory/README.html)
-* [Factory Method 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/FactoryMethod/README.html)
-* [Abstract Factory 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/AbstractFactory/README.html)
-* [Builder 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/Builder/README.html)
-* [Prototype 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/Prototype/README.html)
-* [Singleton 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Creational/Singleton/README.html)
+چرا باید از الگوهای طراحی استفاده کنیم؟
+---------------------------------------
 
-### [Structural](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/README.html)
+دیزاین پترن ها رو در واقع میشه مجموعه ای از راهکارهای امتحان شده و تست شده دونست که چون امتحانشون رو پس دادن میشه با
+خیال راحت ازشون استفاده کرد.
+حتی اگر توی برنامه ای که داریم طراحی می کنیم تمامشون هم نیاز نشن باز هم دونستنشون میتونه بسیار به درک ساز و کار طراحی
+برنامه های حرفه ای و شی گرا کمک کنه.
 
-* [Adapter 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Adapter/README.html)
-* [Bridge 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Bridge/README.html)
-* [Composite 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Composite/README.html)
-* [DataMapper 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/DataMapper/README.html)
-* [Decorator 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Decorator/README.html)
-* [Facade 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Facade/README.html)
-* [Flyweight 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Flyweight/README.html)
-* [Proxy 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Structural/Proxy/README.html)
+یک نکته مهم دیگه اینه که به این خاطر که این الگوها توسط برنامه نویس های حرفه ای شناخته شدن هستن، به کار تیمی هم کمک
+می کنه و باعث میشه همکاران برنامه نویس شما هم الگوهای آشنا رو شناسایی کنن و بدون نیاز به توضیح اضافه ساختارش رو متوجه
+بشن.
 
-### [Behavioral](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/README.html)
+انواع الگوهای طراحی
+-------------------
 
-* [Chain of Responsibility 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/ChainOfResponsibility/README.html)
-* [Command 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Command/README.html)
-* [Iterator 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Iterator/README.html)
-* [Mediator 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Mediator/README.html)
-* [Memento 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Memento/README.html)
-* [Observer 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Observer/README.html)
-* [State 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/State/README.html)
-* [Strategy 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Strategy/README.html)
-* [Template Method 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/TemplateMethod/README.html)
-* [Visitor 📑](https://design-patterns-in-persian.readthedocs.io/en/latest/Behavioral/Visitor/README.html)
+الگوهای طراحی رو میشه از لحاظ **هدفی که دنبال می کنن** به چند دسته تقسیم کرد که هر کدوم رو به صورت مجزا بررسی خواهیم
+کرد:
 
-## چطور به این پروژه کمک کنیم؟ 
+.. toctree::
+   :titlesonly:
+   :numbered:
 
-- با ⭐ دادن به پروژه و ارسالش برای دوستانتون باعث بیشتر دیده شدنش بشید
-- این پروژه رو میتونید fork کنید و زبان ها و اشکال دیگه گسترشش بدید
-- توی یوتیوب [ویدیوهای مربوط](https://www.youtube.com/playlist?list=PLwQhn2KOvsfVku8Dh8adeQj6s1qNIk42v) 📽 رو ببینید 
-  و کانال رو سابسکرایب و ویدیو ها رو لایک ♥ و با بقیه به اشتراک بگذارید
-- در پروژه contribution داشته باشید
+   Creational/README
+   Structural/README
+   Behavioral/README
+
+آموزش ویدیویی
+-------------
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/Ru8lO00Blws" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
