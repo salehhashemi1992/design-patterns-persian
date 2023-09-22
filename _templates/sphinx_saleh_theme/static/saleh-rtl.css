@@ -212,7 +212,7 @@ dl dd {
 }
 
 #sidebar-top {
-    top: 0 !important
+    position: relative;
 }
 
 #page.toggled #sidebar-bottom-versions, #page.toggled #sidebar-top, #page.toggled #wrapper-page-sidebar, #page.toggled #wrapper-sidebar-bottom, #page.toggled .side-top-link {
