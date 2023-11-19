@@ -68,15 +68,7 @@ Vanderjoe, CC BY-SA 4.0, via Wikimedia Commons
    :language: php
    :linenos:
 
-موارد مشابه بین کاراکتر های مختلف:
-
-.. literalinclude:: OrderFacade.php
-   :language: php
-   :linenos:
-
-نوبت به Factory میرسه که به این صورت تعریف میشه:
-
-موارد مشابه بین کاراکتر های مختلف:
+بعد نوبت به Factory میرسه که به این صورت تعریف میشه:
 
 .. literalinclude:: Factory.php
    :language: php
