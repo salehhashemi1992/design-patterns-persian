@@ -3,7 +3,7 @@
 // Receiver class that performs the operations
 class Receiver
 {
-    private int $value;
+    private int $value = 0;
 
     public function add($value): void
     {
