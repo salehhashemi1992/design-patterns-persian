@@ -83,20 +83,6 @@ Kostyantyn Kolesnichenko, Public domain, via Wikimedia Commons
    :language: php
    :linenos:
 
-کلاس Receiver که عملیات مورد نظر دستورات رو اجرا می کنه به این صورت تعریف میشه:
-
-.. literalinclude:: Receiver.php
-   :language: php
-   :linenos:
-
-و از این Invoker رو تعریف می کنیم که کارش مدیریت دستورات هست:
-
-.. literalinclude:: Invoker.php
-   :language: php
-   :linenos:
-
-همونطور که میبینید یک لیست از دستورات و undo ها داره و اون ها رو به ترتیب اجرا می کنه.
-
 نحوه فراخوانی
 -------------
 
