@@ -23,6 +23,5 @@ $user1->sendMessageToGroupChat($groupChat1, $mediator, "Hello everyone in Group 
 $user2->sendMessageToGroupChat($groupChat2, $mediator, "Hi all in Group Chat 2!");
 
 // Output:
-// Bob received message: Hello everyone in Group Chat 1!
-// Alice received message: Hi all in Group Chat 2!
-// Charlie received message: Hi all in Group Chat 2!
+// Mina received message: Hello everyone in Group Chat 1!
+// Ahmad received message: Hi all in Group Chat 2!
