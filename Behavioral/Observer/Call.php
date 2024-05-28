@@ -12,8 +12,14 @@ $publisher->attach($subscriber2);
 $publisher->publishArticle('New article 1', 'Content for new article 1');
 $publisher->publishArticle('New article 2', 'Content for new article 2');
 
+// Notify all subscribers
+$publisher->notify();
+
 // Detach a subscriber
 $publisher->detach($subscriber2);
 
 // Publish another article
 $publisher->publishArticle('New article 3', 'Content for new article 3');
+
+// Notify all subscribers
+$publisher->notify();
