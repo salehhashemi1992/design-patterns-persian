@@ -96,7 +96,6 @@ Vanderjoe, CC BY-SA 4.0, via Wikimedia Commons
 .. code-block::  php
    :linenos:
 
-   $director = new BurgerDirector();
-   clientCode($director);
+   clientCode();
 
 به همین زیبایی!
