@@ -34,7 +34,7 @@ Standderivative work: PleaseStand, CC BY 3.0, via Wikimedia Commons
 4.   Client: کلاسی که از طریق Target Interface با آداپتور ارتباط برقرار می کند بدون اینکه از حضور Adaptee اطلاعی
 داشته باشد.
 
-.. image:: UML.jpg
+.. image:: UML.png
    :alt: UML of Adapter Design Pattern
    :align: center
 
