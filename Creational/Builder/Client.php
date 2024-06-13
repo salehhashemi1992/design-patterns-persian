@@ -1,7 +1,7 @@
 <?php
 
 // Client code
-function clientCode(BurgerDirector $director): void
+function clientCode(): void
 {
     // Create a new director
     $director = new BurgerDirector();
